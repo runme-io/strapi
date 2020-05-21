@@ -1,0 +1,10 @@
+version: 1.0
+publish: app
+services:
+  app:
+    environment:
+      NODE_ENV: production
+    image: strapi/strapi:latest
+    ports:
+      - container: 1337
+        public: 80
