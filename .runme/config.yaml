@@ -3,7 +3,8 @@ publish: app
 services:
   app:
     environment:
-      NODE_ENV: staging
+      NODE_ENV: develop
+      HOST: 0.0.0.0
     image: strapi/strapi:latest
     ports:
       - container: 1337
