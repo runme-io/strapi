@@ -3,7 +3,7 @@ publish: app
 services:
   app:
     environment:
-      NODE_ENV: production
+      NODE_ENV: staging
     image: strapi/strapi:latest
     ports:
       - container: 1337
